@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Home from './Home'
+import Login from './Login'
+import DataContext from './components/GlobleContext'
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path:'/home',
+      element:<Home/>
+    },
+    {
+      path:'/',
+      element:<Login/>
+    }
+  ])
+
+
+  
+  const  [Count,setCount]=useState(0)
+  const  [user,setUser]=useState('')
+
+
+  const updateCount = () => {
+    setCount(Count+1);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+ <DataContext.Provider value={{Count,updateCount,user,setUser}}>
+
+<RouterProvider router={router}/>
+</DataContext.Provider>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

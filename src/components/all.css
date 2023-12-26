@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+.title{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+   
+}
+.card{
+    width: 24%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.price .discountPercentage .rating{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.image img{
+    width: fit-content;
+    height: 35vh;
+}
