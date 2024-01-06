@@ -1,6 +1,6 @@
 # Build-With-Innovation-Private-Limited
 
-Welcome to the official repository for the React application developed by Build With Innovation Private Limited. This application showcases a robust set of features including user authentication, product listing, and cart functionality. The clean and responsive user interface is built using popular technologies such as React, Formik, React Router, Styled Components, and Tailwind CSS.
+Welcome to the official repository for the React application developed by **`Mohar Singh Rawat`** from intershala assignment of Build With Innovation Private Limitet. This application showcases a robust set of features including user authentication, product listing, and cart functionality. The clean and responsive user interface is built using popular technologies such as React, Formik, React Router, Styled Components, and Tailwind CSS.
 
 ## Key Features
 
