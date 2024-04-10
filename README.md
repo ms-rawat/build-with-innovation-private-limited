@@ -39,4 +39,4 @@ Follow these steps to get started with the application:
 3. **Start the Development Server:**
 - npm start
 
-***contibution are welcomed***   
+***contibutions are welcomed***   
